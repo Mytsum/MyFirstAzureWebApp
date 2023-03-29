@@ -122,6 +122,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          app-name: ${{ testwebappdevopsmsse }}
           publish-profile: ${{ secrets.BEENISH_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
