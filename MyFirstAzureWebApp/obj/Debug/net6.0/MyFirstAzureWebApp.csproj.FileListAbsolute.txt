@@ -1,0 +1,83 @@
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Development.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.staticwebassets.runtime.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.exe
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.deps.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.runtimeconfig.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.dll
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\ref\MyFirstAzureWebApp.dll
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.pdb
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfoInputs.cache
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfo.cs
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.CoreCompileInputs.cache
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.MvcApplicationPartsAssemblyInfo.cache
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cache
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cs
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.build.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.development.json
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\bundle\MyFirstAzureWebApp.styles.css
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\projectbundle\MyFirstAzureWebApp.bundle.scp.css
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.dll
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
+F:\00-G-Drive-Data\Phd\01. Courses\26. DevOps MS SP2023\Basharat-SP2023\Src\V2a\devops-aspnet-core-github-workflow-v2a\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.AssemblyReference.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.staticwebassets.runtime.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.exe
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.deps.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.runtimeconfig.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.pdb
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.AssemblyReference.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfoInputs.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfo.cs
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.CoreCompileInputs.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cs
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\bundle\MyFirstAzureWebApp.styles.css
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\projectbundle\MyFirstAzureWebApp.bundle.scp.css
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\refint\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
+C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.staticwebassets.runtime.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.exe
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.deps.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.runtimeconfig.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.pdb
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.AssemblyReference.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfoInputs.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.AssemblyInfo.cs
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.csproj.CoreCompileInputs.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.RazorAssemblyInfo.cs
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets\msbuild.MyFirstAzureWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.MyFirstAzureWebApp.props
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyFirstAzureWebApp.props
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyFirstAzureWebApp.props
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\bundle\MyFirstAzureWebApp.styles.css
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\scopedcss\projectbundle\MyFirstAzureWebApp.bundle.scp.css
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\refint\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
