@@ -30,11 +30,6 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-    inputs:
-      releaseType:
-        description: 'Where to release'
-        required: true
-        default: 'build' 
 
 permissions:
   contents: read
