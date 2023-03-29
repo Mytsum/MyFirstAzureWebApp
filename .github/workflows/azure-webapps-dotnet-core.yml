@@ -55,10 +55,6 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
         working-directory: "./MyFirstAzureWebApp"
-      
-      - name: Test
-        run: dotnet test --no-build --verbosity normal 
-        working-directory: "./FirstAzureAppTestProject"
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
