@@ -70,7 +70,7 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-  deploy:
+  deploy_DEV:
     permissions:
       contents: none
     runs-on: ubuntu-latest
@@ -96,4 +96,32 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.MYSTUM_PUBLISH }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+  
+  deploy_TST:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: deploy_DEV
+    environment:
+      name: 'Test'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: .net-app
+
+      - name: Login job
+        uses: azure/login@v1
+        with:
+           creds: ${{ secrets.BEENISH_AZURE }}
+          
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.BEENISH_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
