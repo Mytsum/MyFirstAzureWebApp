@@ -22,8 +22,9 @@ name: Build and deploy ASP.Net Core app to an Azure Web App
 env:
   AZURE_WEBAPP_NAME: mywebappdevopssp23    # set this to the name of your Azure Web App
   AZURE_WEBAPP_NAME_TST: testwebappdevopsmsse
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  AZURE_WEBAPP_PACKAGE_PATH: '.'# set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6.0.*' # set this to the .NET Core version to use
+  ENVIRONMENT: test
 
 on:
   push:
@@ -75,6 +76,7 @@ jobs:
     permissions:
       contents: none
     runs-on: ubuntu-latest
+    if: env.ENVIRONMENT == 'development'
     needs: build
     environment:
       name: 'Development'
@@ -103,6 +105,7 @@ jobs:
     permissions:
       contents: none
     runs-on: ubuntu-latest
+    if: env.ENVIRONMENT == 'test'
     needs: deploy_DEV
     environment:
       name: 'Test'
