@@ -3,7 +3,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-services.AddSingleton<IWebHostEnvironment>(env => env.HostingEnvironment);
 
 var app = builder.Build();
 
@@ -15,11 +14,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.Use(async (context, next) =>
-{
-    context.Items["Environment"] = context.RequestServices.GetService<IWebHostEnvironment>().EnvironmentName;
-    await next();
-});
 
 
 app.UseHttpsRedirection();
