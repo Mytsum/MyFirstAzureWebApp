@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+z2cKsd4TQdMeHHRjV/H3CcKLMcM+2p6Uwiu/fw+rgP3bzpa++x51E0FUo+CdCWEaH5dGgNhMgc46sQ+Kb7ZQ==",
+  "dgSpecHash": "wGJSYwds2j3hipuXBCqllOUX9zhnURMvtx+vUJN/WoKr4T9VMHOFvG+DmNMIXZad7m+Ivh9ozhIdw+PK6+lhOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aliaf\\Desktop\\devops-aspnet-core-github-workflow-v2a-main\\devops-aspnet-core-github-workflow-v2a-main\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
+  "projectFilePath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aliaf\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\aliaf\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
