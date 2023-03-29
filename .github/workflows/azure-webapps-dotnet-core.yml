@@ -76,12 +76,12 @@ jobs:
     permissions:
       contents: none
     runs-on: ubuntu-latest
-    if: env.ENVIRONMENT != 'test'
     needs: build
     environment:
       name: 'Development'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
+    if: env.ENVIRONMENT != 'test'
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
