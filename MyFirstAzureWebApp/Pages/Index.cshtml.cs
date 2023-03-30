@@ -6,12 +6,10 @@ namespace MyFirstAzureWebApp.Pages;
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
-    private readonly IWebHostEnvironment _env;
 
-    public IndexModel(IConfiguration configuration, IWebHostEnvironment env)
+    public IndexModel(ILogger<IndexModel> logger)
     {
-        Configuration = configuration;
-        _env = env;
+        _logger = logger;
     }
 
     public void OnGet()
