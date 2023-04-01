@@ -15,7 +15,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//ali
+//alii
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

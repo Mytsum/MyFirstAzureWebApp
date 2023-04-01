@@ -99,6 +99,14 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.MYSTUM_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          app-settings-json: |
+            [
+                {
+                    "name": "UI:Index:Header",
+                    "value": "${{ secrets.INDEX_HEADER }}",
+                    "slotSetting": true
+                }
+            ]
   
   deploy_TST:
     permissions:
@@ -127,3 +135,11 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME_TST }}
           publish-profile: ${{ secrets.BEENISH_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          app-settings-json: |
+            [
+                {
+                    "name": "UI:Index:Header",
+                    "value": "${{ secrets.INDEX_HEADER }}",
+                    "slotSetting": true
+                }
+            ]
