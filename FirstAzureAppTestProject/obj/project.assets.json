@@ -6351,23 +6351,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Beenish Raza\\.nuget\\packages\\": {},
+    "C:\\Users\\aliaf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
       "projectName": "FirstAzureAppTestProject",
-      "projectPath": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
-      "packagesPath": "C:\\Users\\Beenish Raza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\obj\\",
+      "projectPath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\FirstAzureAppTestProject.csproj",
+      "packagesPath": "C:\\Users\\aliaf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\FirstAzureAppTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Beenish Raza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aliaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6383,8 +6383,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {
-              "projectPath": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj"
+            "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj": {
+              "projectPath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj"
             }
           }
         }
@@ -6432,7 +6432,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
