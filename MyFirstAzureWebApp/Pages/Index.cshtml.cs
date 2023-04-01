@@ -7,14 +7,18 @@ public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
 
-    public IndexModel(ILogger<IndexModel> logger)
+    private IConfiguration configuration;
+
+    public string indexUI { get; private set; } = "";
+
+    public IndexModel(IConfiguration _configuration)
     {
-        _logger = logger;
+        configuration = _configuration;
     }
 
     public void OnGet()
     {
-
+        indexUI = configuration["UI:Index:Header"].ToString(); ;
     }
 
     private readonly IDictionary<string, string> Users = new Dictionary<string, string>()

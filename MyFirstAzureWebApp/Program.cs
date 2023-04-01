@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,10 @@ builder.Services.AddRazorPages();
 
 
 var app = builder.Build();
+
+var indexUI = builder.Configuration["UI:Index:Header"];
+
+Debug.WriteLine("Header is: " + indexUI);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
