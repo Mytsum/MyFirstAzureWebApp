@@ -97,11 +97,13 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          slot-name: staging
           app-settings-json: |
             [
                 {
                     "name": "UI:Index:Header",
                     "value": "${{ secrets.INDEX_HEADER }}",
+                    "slotSetting": true
                 }
             ]
           publish-profile: ${{ secrets.MYSTUM_PUBLISH }}
@@ -137,6 +139,7 @@ jobs:
                 {
                     "name": "UI:Index:Header",
                     "value": "${{ secrets.INDEX_HEADER }}",
+                    "slotSetting": true
                 }
             ]
           publish-profile: ${{ secrets.BEENISH_PUBLISH }}
