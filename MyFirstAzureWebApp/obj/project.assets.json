@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aliaf\\.nuget\\packages\\": {},
+    "C:\\Users\\Beenish Raza\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
       "projectName": "MyFirstAzureWebApp",
-      "projectPath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
-      "packagesPath": "C:\\Users\\aliaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aliaf\\Desktop\\TestWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\obj\\",
+      "projectPath": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\MyFirstAzureWebApp.csproj",
+      "packagesPath": "C:\\Users\\Beenish Raza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Beenish Raza\\Desktop\\MyFirstAzureWebApp\\MyFirstAzureWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aliaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Beenish Raza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
