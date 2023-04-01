@@ -10,6 +10,7 @@ public class IndexModel : PageModel
     private IConfiguration configuration;
 
     public string indexUI { get; private set; } = "";
+    public string env_index { get; private set; } = "";
 
     public IndexModel(IConfiguration _configuration)
     {
@@ -18,7 +19,8 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        indexUI = configuration["UI:Index:Header"].ToString(); ;
+        indexUI = configuration["UI:Index:Header"].ToString();
+        env_index = configuration["ENV_INDEX"].ToString();
     }
 
     private readonly IDictionary<string, string> Users = new Dictionary<string, string>()
