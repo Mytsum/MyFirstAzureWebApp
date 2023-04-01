@@ -10,6 +10,7 @@ public class IndexModel : PageModel
 
     public string indexUI { get; private set; } = "";
 
+
     public IndexModel(IConfiguration _configuration)
     {
         configuration = _configuration;
