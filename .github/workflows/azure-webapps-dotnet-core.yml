@@ -97,8 +97,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          publish-profile: ${{ secrets.MYSTUM_PUBLISH }}
-          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          slot-name: development
           app-settings-json: |
             [
                 {
@@ -107,6 +106,8 @@ jobs:
                     "slotSetting": true
                 }
             ]
+          publish-profile: ${{ secrets.MYSTUM_PUBLISH }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
   
   deploy_TST:
     permissions:
@@ -133,8 +134,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME_TST }}
-          publish-profile: ${{ secrets.BEENISH_PUBLISH }}
-          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
           app-settings-json: |
             [
                 {
@@ -143,3 +142,5 @@ jobs:
                     "slotSetting": true
                 }
             ]
+          publish-profile: ${{ secrets.BEENISH_PUBLISH }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
