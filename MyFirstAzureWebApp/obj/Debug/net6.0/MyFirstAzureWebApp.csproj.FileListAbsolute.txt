@@ -50,7 +50,6 @@ C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet
 C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
 C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
 C:\Users\aliaf\Desktop\devops-aspnet-core-github-workflow-v2a-main\devops-aspnet-core-github-workflow-v2a-main\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
-C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.json
 C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.staticwebassets.runtime.json
 C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\MyFirstAzureWebApp.exe
@@ -107,3 +106,7 @@ C:\Users\Beenish Raza\Desktop\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\ne
 C:\Users\Beenish Raza\Desktop\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.pdb
 C:\Users\Beenish Raza\Desktop\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\MyFirstAzureWebApp.genruntimeconfig.cache
 C:\Users\Beenish Raza\Desktop\MyFirstAzureWebApp\MyFirstAzureWebApp\obj\Debug\net6.0\ref\MyFirstAzureWebApp.dll
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Devlopment.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Staging.json
+C:\Users\aliaf\Desktop\TestWebApp\MyFirstAzureWebApp\MyFirstAzureWebApp\bin\Debug\net6.0\appsettings.Test.json
