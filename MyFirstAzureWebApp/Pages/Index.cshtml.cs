@@ -20,8 +20,7 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         indexUI = configuration["UI:Index:Header"].ToString();
-        string mySettingValue = Environment.GetEnvironmentVariable("ENV_INDEX");
-        env_index = mySettingValue;
+        env_index = Environment.GetEnvironmentVariable("ENV_INDEX");
     }
 
     private readonly IDictionary<string, string> Users = new Dictionary<string, string>()
