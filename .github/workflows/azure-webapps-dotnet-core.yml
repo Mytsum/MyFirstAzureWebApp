@@ -22,6 +22,7 @@ name: Build and deploy ASP.Net Core app to an Azure Web App
 env:
   AZURE_WEBAPP_NAME: mywebappdevopssp23    # set this to the name of your Azure Web App
   AZURE_WEBAPP_NAME_TST: testwebappdevopsmsse
+  AZURE_WEBAPP_NAME_STG: stagingwebappdevopsmsse
   AZURE_WEBAPP_PACKAGE_PATH: '.'# set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6.0.*' # set this to the .NET Core version to use
 
@@ -141,4 +142,40 @@ jobs:
                 }
             ]
           publish-profile: ${{ secrets.BEENISH_PUBLISH }}
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+    
+  deploy_STG:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: deploy_TST
+    environment:
+      name: 'Staging'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: .net-app
+
+      - name: Login job
+        uses: azure/login@v1
+        with:
+           creds: ${{ secrets.TAYYAB_AZURE }}
+          
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME_STG }}
+          app-settings-json: |
+            [
+                {
+                    "name": "UI:Index:Header",
+                    "value": "${{ secrets.INDEX_HEADER }}",
+                    "slotSetting": true
+                }
+            ]
+          publish-profile: ${{ secrets.TAYYAB_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
