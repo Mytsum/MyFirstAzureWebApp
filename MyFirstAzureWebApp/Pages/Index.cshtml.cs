@@ -41,6 +41,4 @@ public class IndexModel : PageModel
         int c = a + b;
         return c;
     }
-
-
 }
