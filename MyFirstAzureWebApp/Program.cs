@@ -1,5 +1,3 @@
-using System.Diagnostics;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
@@ -11,8 +9,8 @@ string environmentName = null;
 environmentName = "Development";
 #elif RELEASE
 environmentName = "Development";
-#elif TEST
-environmentName = "Test";
+#elif TESTING
+environmentName = "Testing";
 #elif STAGING 
 environmentName = "Staging";
 #else
@@ -27,10 +25,6 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-var indexUI = builder.Configuration["UI:Index:Header"];
-
-Debug.WriteLine("Header is: " + indexUI);
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -39,7 +33,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//alii
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

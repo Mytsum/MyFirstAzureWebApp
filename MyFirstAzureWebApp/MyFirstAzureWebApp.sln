@@ -14,7 +14,7 @@ Global
 		Production|Any CPU = Production|Any CPU
 		Release|Any CPU = Release|Any CPU
 		Staging|Any CPU = Staging|Any CPU
-		Test|Any CPU = Test|Any CPU
+		Testing|Any CPU = Testing|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,8 +27,8 @@ Global
 		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
 		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Staging|Any CPU.Build.0 = Staging|Any CPU
-		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Test|Any CPU.ActiveCfg = Release|Any CPU
-		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Test|Any CPU.Build.0 = Release|Any CPU
+		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Testing|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DC08C4-F69F-4E63-B86F-65447E694C5E}.Testing|Any CPU.Build.0 = Release|Any CPU
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Development|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,8 +39,8 @@ Global
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
 		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Staging|Any CPU.Build.0 = Staging|Any CPU
-		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Test|Any CPU.ActiveCfg = Release|Any CPU
-		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Test|Any CPU.Build.0 = Release|Any CPU
+		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Testing|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCA6FF9-7727-4001-96A3-213C38C1CADC}.Testing|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
