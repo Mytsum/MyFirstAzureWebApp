@@ -21,8 +21,8 @@ public class IndexModel : PageModel
     {
         indexUI = configuration["UI:Index:Header"].ToString();
         env_index = Environment.GetEnvironmentVariable("ENV_INDEX");
+        CallTest();
     }
-
     private readonly IDictionary<string, string> Users = new Dictionary<string, string>()
     {
         { "test", "passcode"}
@@ -40,5 +40,12 @@ public class IndexModel : PageModel
     {
         int c = a + b;
         return c;
+    }
+    private void CallTest()
+    {
+        if (env_index == "Test")
+        {
+            indexUI = "Test";
+        }
     }
 }
