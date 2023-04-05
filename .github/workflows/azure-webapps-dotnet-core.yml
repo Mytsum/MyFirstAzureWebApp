@@ -230,12 +230,49 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME_STG }}
           publish-profile: ${{ secrets.TAYYAB_PUBLISH }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-          
+  
+  build_PROD:
+      runs-on: ubuntu-latest
+      needs: deploy_STG
+
+      steps:
+        - uses: actions/checkout@v3
+
+        - name: Set up .NET Core
+          uses: actions/setup-dotnet@v2
+          with:
+            dotnet-version: ${{ env.DOTNET_VERSION }}
+
+        - name: Set up dependency caching for faster builds
+          uses: actions/cache@v3
+          with:
+            path: ~/.nuget/packages
+            key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-nuget-
+        - name: Build with dotnet 
+          run: dotnet build --configuration Production
+          working-directory: "./MyFirstAzureWebApp" 
+
+        #- name: Test
+        #  run: dotnet test --no-build --verbosity normal 
+        #  working-directory: "./FirstAzureAppTestProject" 
+
+        - name: dotnet publish
+          run: dotnet publish -c Production -o ${{env.DOTNET_ROOT}}/myapp
+          working-directory: "./MyFirstAzureWebApp"
+
+        - name: Upload artifact for deployment job
+          uses: actions/upload-artifact@v3
+          with:
+            name: .net-app
+            path: ${{env.DOTNET_ROOT}}/myapp
+
   deploy_PROD:
     permissions:
       contents: none
     runs-on: ubuntu-latest
-    needs: deploy_STG
+    needs: build_PROD
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
