@@ -48,4 +48,26 @@ public class IndexModel : PageModel
             indexUI = "Test";
         }
     }
+    private void CallDev()
+    {
+        if (env_index == "Development")
+        {
+            indexUI = "Development";
+        }
+    }
+    private void CallStg()
+    {
+        if (env_index == "Staging")
+        {
+            indexUI = "Staging";
+        }
+    }
+    private void CallPrd()
+    {
+        if (env_index == "Production")
+        {
+            indexUI = "Production";
+        }
+    }
+
 }
