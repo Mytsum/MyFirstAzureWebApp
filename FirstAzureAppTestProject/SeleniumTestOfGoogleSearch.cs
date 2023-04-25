@@ -76,43 +76,41 @@ namespace FirstAzureAppTestProject
 
             webDriver.Quit();
         }
-        //[TestMethod]
-        //public void Test_Value_Check()
-        //{
-        //    string searchText = "Selenium Test";
-        //    string displayResult = "Riphah International University";
-        //    int waitingTime = 2000;
-        //    By textField = By.Name("inp");
-        //    By checkButton = By.Name("chk");
+        [TestMethod]
+        public void Test_Value_Check()
+        {
+            string searchText = "Selenium Test";
+            string displayResult = "Riphah International University";
+            int waitingTime = 2000;
+            By textField = By.Name("inp");
+            By checkButton = By.Name("chk");
+            By outputField = By.Id("txtOutput");
 
+            IWebDriver webDriver = new ChromeDriver();
 
-        //    IWebDriver webDriver = new ChromeDriver();
+            Thread.Sleep(waitingTime);
 
-        //    Thread.Sleep(waitingTime);
+            webDriver.Navigate().GoToUrl("https://mywebappdevopssp23.azurewebsites.net/");
 
-        //    webDriver.Navigate().GoToUrl("https://localhost:7007/");
+            Thread.Sleep(waitingTime);
 
-        //    Thread.Sleep(waitingTime);
+            webDriver.Manage().Window.Maximize();
 
-        //    webDriver.Manage().Window.Maximize();
+            Thread.Sleep(waitingTime);
 
-        //    Thread.Sleep(waitingTime);
+            webDriver.FindElement(textField).SendKeys(searchText);
 
-        //    webDriver.FindElement(textField).SendKeys(searchText);
+            Thread.Sleep(waitingTime);
 
-        //    Thread.Sleep(waitingTime);
+           webDriver.FindElement(checkButton).Click();
 
-        //    webDriver.FindElement(checkButton).Click();
+            //Thread.Sleep(waitingTime);
 
-        //    Thread.Sleep(waitingTime);
+            //var actualResultText = webDriver.FindElement(outputField);
 
-        //    By outputField = By.Id("txtOutput");
+            //Assert.IsTrue(actualResultText.Text.Equals(searchText));
 
-        //    var actualResultText = webDriver.FindElement(outputField);
-
-        //    Assert.IsTrue(actualResultText.Text.Equals(displayResult));
-
-        //    webDriver.Quit();
-        //}
+            webDriver.Quit();
+        }
     }
 }
