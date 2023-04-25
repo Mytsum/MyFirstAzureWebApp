@@ -1,18 +1,32 @@
-import smtplib, ssl
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
+from email.mime.base import MIMEBase
+from email import encoders
 import os
 
+# Set up your Gmail credentials
+username = os.environ.get('USER_EMAIL')
+password = os.environ.get('USER_PASSWORD')
 
-port = 465
-smtp_server = "smtp.gmail.com"
-USERNAME = os.environ.get('USER_EMAIL')
-PASSWORD = os.environ.get('USER_PASSWORD')
-message = """\
-Subject: GitHub Email Report
+# Set up the email parameters
+sender = username
+recipient = username
+subject = 'GitHub Email Report'
+body = 'This is your daily email report.'
 
-This is your daily email report.
-"""
+msg = MIMEMultipart()
+msg['From'] = sender
+msg['To'] = recipient
+msg['Subject'] = subject
 
-context = ssl.create_default_context()
-with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-    server.login(USERNAME,PASSWORD)
-    server.sendmail(USERNAME,USERNAME,message)
+msg.attach(MIMEText(body, 'plain'))
+
+# Create SMTP session and send email
+server = smtplib.SMTP('smtp.office365.com', 587)
+server.starttls()
+server.login(username, password)
+text = msg.as_string()
+server.sendmail(sender, recipient, text)
+server.quit()
