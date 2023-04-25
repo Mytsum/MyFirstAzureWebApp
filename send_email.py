@@ -7,8 +7,8 @@ from email import encoders
 import os
 
 # Set up your Gmail credentials
-username = os.environ.get('MYTSUM_AZURE')
-password = os.environ.get('USER_PASSWORD')
+username = os.environ.get('INDEX_HEADER')
+password = os.environ.get('MAHNOOR_PUBLISH')
 
 print(username)
 print(password)
