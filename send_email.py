@@ -7,8 +7,10 @@ from email import encoders
 import os
 
 # Set up your Gmail credentials
-username = os.environ['USER_EMAIL']
-password = os.environ['USER_PASSWORD']
+# username = os.environ['USER_EMAIL']
+# password = os.environ['USER_PASSWORD']
+username = "beenishraza777@outlook.com"
+password = "beenish123"
 
 # Set up the email parameters
 sender = username
