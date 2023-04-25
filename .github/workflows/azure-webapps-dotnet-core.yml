@@ -126,7 +126,7 @@ jobs:
 
         - name: Test
           run: dotnet test --no-build --verbosity normal 
-          working-directory: "./SeleniumTestsProject" 
+          working-directory: "./FirstAzureAppTestProject" 
 
         - name: dotnet publish
           run: dotnet publish -c Testing -o ${{env.DOTNET_ROOT}}/myapp
