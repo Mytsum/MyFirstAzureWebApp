@@ -1,7 +1,9 @@
 ﻿@page
 @model IndexModel
+@using System.ComponentModel.DataAnnotations
 @{
     ViewData["Title"] = "Home page";
+
 }
 
 <div class="text-center">
@@ -26,4 +28,17 @@
 
     <h1>{This is <b style="color:red;">@Model.indexUI</b> Environment}</h1>
 
+    <h2>Enter Text</h2>
+    <input type="text" id="txtInput" name="inp" /><br /><br />
+    <button class="btn btn-primary" onclick="getText()" name="chk">Get Text</button>
+
+    <h2>Output Text</h2>
+    <p id="txtOutput"></p>
 </div>
+<script>
+    function getText() {
+        var input = document.getElementById("txtInput");
+        var output = document.getElementById("txtOutput");
+        output.innerHTML = input.value;
+    }
+</script>

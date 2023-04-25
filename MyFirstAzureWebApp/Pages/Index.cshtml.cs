@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
 
 namespace MyFirstAzureWebApp.Pages;
 
@@ -10,7 +11,8 @@ public class IndexModel : PageModel
 
     public string indexUI { get; private set; } = "";
     public string env_index { get; private set; } = "";
-
+    private string EmailAddress { get; set; } = "";
+    private string ErrorMessage { get; set; } = "";
 
     public IndexModel(IConfiguration _configuration)
     {
@@ -22,6 +24,19 @@ public class IndexModel : PageModel
         indexUI = configuration["UI:Index:Header"].ToString();
         env_index = Environment.GetEnvironmentVariable("ENV_INDEX");
         CallTest();
+    }
+    private void ValidateEmail()
+    {
+        var emailValidator = new EmailAddressAttribute();
+        if (!emailValidator.IsValid(EmailAddress))
+        {
+            ErrorMessage = "Invalid email address.";
+        }
+        else
+        {
+            ErrorMessage = "";
+            // do something else if the email is valid
+        }
     }
     private readonly IDictionary<string, string> Users = new Dictionary<string, string>()
     {
