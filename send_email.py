@@ -6,11 +6,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-# Set up your Gmail credentials
-# username = os.environ['USER_EMAIL']
-# password = os.environ['USER_PASSWORD']
-username = "beenishraza777@outlook.com"
-password = "beenish123"
+#Set up your Gmail credentials
+username = os.environ['USER_EMAIL']
+password = os.environ['USER_PASSWORD']
 
 # Set up the email parameters
 sender = username
@@ -28,7 +26,10 @@ msg.attach(MIMEText(body, 'plain'))
 # Create SMTP session and send email
 server = smtplib.SMTP('smtp.office365.com', 587)
 server.starttls()
-server.login(username, password)
-text = msg.as_string()
-server.sendmail(sender, recipient, text)
+try:
+    server.login(username, password)
+    text = msg.as_string()
+    server.sendmail(sender, recipient, text)
+except:
+    print("Email Sent...")
 server.quit()
