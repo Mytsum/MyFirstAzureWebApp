@@ -8,7 +8,7 @@ import os
 
 # Set up your Gmail credentials
 username = os.environ['USER_EMAIL']
-password = os.environ['MAHNOOR_PUBLISH']
+password = os.environ['USER_PASSWORD']
 
 print(username)
 print(password)
