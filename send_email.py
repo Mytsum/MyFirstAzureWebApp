@@ -10,25 +10,23 @@ import os
 username = os.environ['USER_EMAIL']
 password = os.environ['USER_PASSWORD']
 
-print(username)
-print(password)
 # Set up the email parameters
-# sender = username
-# recipient = username
-# subject = 'GitHub Email Report'
-# body = 'This is your daily email report.'
+sender = username
+recipient = username
+subject = 'GitHub Email Report'
+body = 'This is your daily email report.'
 
-# msg = MIMEMultipart()
-# msg['From'] = sender
-# msg['To'] = recipient
-# msg['Subject'] = subject
+msg = MIMEMultipart()
+msg['From'] = sender
+msg['To'] = recipient
+msg['Subject'] = subject
 
-# msg.attach(MIMEText(body, 'plain'))
+msg.attach(MIMEText(body, 'plain'))
 
-# # Create SMTP session and send email
-# server = smtplib.SMTP('smtp.office365.com', 587)
-# server.starttls()
-# server.login(username, password)
-# text = msg.as_string()
-# server.sendmail(sender, recipient, text)
-# server.quit()
+# Create SMTP session and send email
+server = smtplib.SMTP('smtp.office365.com', 587)
+server.starttls()
+server.login(username, password)
+text = msg.as_string()
+server.sendmail(sender, recipient, text)
+server.quit()
